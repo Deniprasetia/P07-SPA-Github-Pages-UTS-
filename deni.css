@@ -1,0 +1,180 @@
+body{
+	background-color: whitesmoke;
+
+}
+
+img{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	cursor: pointer;
+	width: 150px;
+	box-shadow: 2px 2px 4px palevioletred;
+	padding: 3px;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+h3{
+	margin: 20px;
+	text-align: center;
+}
+
+h4{
+	margin: 10px;
+	text-align: center;
+}
+
+.teks{
+	transition: 0.5s;
+	text-align: center;
+	margin:0 0 3px;
+}
+
+
+.teks:hover {
+		letter-spacing: 2px;
+	}
+
+p{
+	margin: 45px 0 5px;
+	text-align: center;
+	
+}
+ .tbl{
+	font-weight: bold;
+ }
+
+.hallo{
+	font-family: monospace;
+    position: relative;
+    top: 50%;  
+    width: 14em;
+    margin: 0 auto;
+	border-right: 1px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.ketik{
+	animation: typewriter 3s steps(33) 0.5s 1 normal both, 
+	blinkTextCursor 1000ms steps(33) infinite normal;
+}
+@keyframes typewriter{
+  	from{width: 0;}
+  	to{width: 16em;}
+}
+@keyframes blinkTextCursor{
+  	from{border-right-color: black;}
+  	to{border-right-color: transparent;}
+}
+
+.heading{
+	background-color: rgb(93, 52, 146) ;
+	padding: 5px 10px 20px;
+	text-align: center;
+
+}
+
+.navigation{
+	background-color: rgb(101, 129, 221);
+    padding: 17px 0;
+	text-align: center;
+    	
+}
+
+.bar{
+	margin: 0;
+	padding: 17Px ;
+    color:white ;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.bar:hover{
+	background-color:   rgba(24, 240, 16, 0.842);
+}
+
+.aktif{
+	background-color: rgba(24, 240, 16, 0.842);
+}
+
+.bar_home{
+	background-color:rgba(39, 193, 183, 0.664);;
+	padding: 22px;
+}
+
+.fill{
+	display: none;
+	background-color: rgba(39, 193, 183, 0.664); ;
+	padding: 22px;
+}
+
+.fillnya {
+    padding: 30px;
+    color: black;
+    text-align: center;
+    z-index: 1;
+	list-style: none;
+}
+.fillnya a{
+	color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.fillnya a:hover {
+	background-color: rgba(64, 241, 64, 0.664);;
+	color: white;
+	box-shadow: 2px 2px 3px grey;
+}
+.list{
+	margin-bottom: 20px;
+}
+
+.bawah{
+	background-color:rgb(93, 52, 146) ;
+	text-align: center;
+	color: black;
+	padding: 9px;
+	font-weight: bold;
+}
+
+.tombol_kirim{
+	background-color: rgba(72, 255, 36, 0.815);
+	color: black;
+	cursor: pointer;
+	min-width: 30px;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: none;
+	margin-top: 10px;
+
+}
+.tombol_tengah {
+    text-align: center;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+@media only screen and (max-width: 800px){
+	.first{
+		width: 100%;
+	}
+}
